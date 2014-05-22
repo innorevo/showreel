@@ -21,6 +21,13 @@
                 "enabled": true,
                 "label": "Button"
             }
+        },
+        "text": {
+            "prototype": "digit/ui/text.reel",
+            "properties": {
+                "element": {"#": "text"},
+                "value": "Hello"
+            }
         }
     }
     </script>
@@ -28,6 +35,7 @@
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
         <button data-montage-id="button"></button>
+        <p data-montage-id="text"></p>
     </div>
 </body>
 </html>
