@@ -14,19 +14,11 @@
                 "identifier": "abc"
             }
         },
-        "button": {
-            "prototype": "digit/ui/button.reel",
+        "title": {
+            "prototype": "digit/ui/title.reel",
             "properties": {
-                "element": {"#": "button"},
-                "enabled": true,
-                "label": "Button"
-            }
-        },
-        "text": {
-            "prototype": "digit/ui/text.reel",
-            "properties": {
-                "element": {"#": "text"},
-                "value": "Hello"
+                "element": {"#": "title"},
+                "value": "something"
             }
         }
     }
@@ -34,8 +26,7 @@
 </head>
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
-        <button data-montage-id="button"></button>
-        <p data-montage-id="text"></p>
+        <h1 data-montage-id="title"></h1>
     </div>
 </body>
 </html>
